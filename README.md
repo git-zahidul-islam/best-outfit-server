@@ -1,6 +1,6 @@
 ## Product Search and Filtering Website (Backend)
 
-#### Website: Tech-Shop (https://best-outfit-client.vercel.app)
+#### Website: Best Outfit (https://best-outfit-client.vercel.app)
 
 ### Project Overview
 
