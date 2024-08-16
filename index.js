@@ -60,7 +60,7 @@ async function run() {
           let query = {};
   
           if (search) {
-            query.productName = { $regex: search, $options: "i" }; // Case-insensitive search
+            query.productName = { $regex: search, $options: "i" };
           }
           if (brand) {
             query.brandName = brand;
