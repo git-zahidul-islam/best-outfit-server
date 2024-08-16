@@ -78,9 +78,9 @@ async function run() {
           // Sorting options
           let sortOptions = {};
           if (sortBy) {
-            sortOptions[sortBy] = sortOrder === "asc" ? 1 : -1; // Ascending or descending
+            sortOptions[sortBy] = sortOrder === "asc" ? 1 : -1;
           } else {
-            sortOptions["creationDate"] = -1; // Default sort by newest first
+            sortOptions["creationDate"] = -1;
           }
   
           // Pagination options
