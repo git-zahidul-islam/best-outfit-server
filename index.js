@@ -43,6 +43,7 @@ async function run() {
         
     app.get("/products", async (req, res) => {
         try {
+          // all things here
           const {
             page = 1,
             limit = 10,
